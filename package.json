@@ -1,9 +1,14 @@
 {
+<<<<<<< HEAD
   "name": "risk-management",
+=======
+  "name": "risk-management-01",
+>>>>>>> 78bf550eed6f0faa4948768a97c803ed74df61b3
   "version": "1.0.0",
   "description": "A simple CAP project.",
   "repository": "<Add your repository here>",
   "license": "UNLICENSED",
+<<<<<<< HEAD
   "private": true,
   "engines": {
     "node": ">=14"
@@ -16,6 +21,17 @@
   },
   "devDependencies": {
     "@sap/ux-specification": "^1.100.2",
+=======
+  "engines": {
+    "node": ">=14"
+  },
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^5",
+    "express": "^4"
+  },
+  "devDependencies": {
+>>>>>>> 78bf550eed6f0faa4948768a97c803ed74df61b3
     "sqlite3": "^5.0.2"
   },
   "scripts": {
@@ -45,6 +61,7 @@
       "no-console": "off",
       "require-atomic-updates": "off"
     }
+<<<<<<< HEAD
   },
   "sapux": [
     "app/risks"
@@ -75,5 +92,7 @@
     "hana": {
       "deploy-format": "hdbtable"
     }
+=======
+>>>>>>> 78bf550eed6f0faa4948768a97c803ed74df61b3
   }
 }
