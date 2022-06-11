@@ -1,4 +1,5 @@
  using riskmanagement as rm from '../db/schema';
+ 
  // Annotate Risk elements
  annotate rm.Risks with {
     ID @title : 'Risk';
