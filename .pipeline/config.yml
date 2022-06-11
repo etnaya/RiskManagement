@@ -16,7 +16,7 @@ stages:
     mavenExecuteStaticCodeChecks: false
     npmExecuteLint: false
   Additional Unit Tests:
-    npmExecuteScript: false
+    npmExecuteScripts: false
     karmaExecuteTests: false
 Release:
   cloudFoundryDeploy: true
